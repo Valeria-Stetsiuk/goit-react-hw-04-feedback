@@ -10,12 +10,12 @@ export const Statistics = ({
   return (
     <>
       <ul className={s.statisticsList}>
-        <li className={s.statisticsItem}>Good: {good}</li>
-        <li className={s.statisticsItem}>Neutral: {neutral}</li>
-        <li className={s.statisticsItem}>Bad: {bad}</li>
-        <li className={s.statisticsItem}>Total: {total}</li>
+        <li className={s.statisticsItem}>😀Good: {good}</li>
+        <li className={s.statisticsItem}>😐Neutral: {neutral}</li>
+        <li className={s.statisticsItem}>🙁Bad: {bad}</li>
+        <li className={s.statisticsItem}>🔥Total: {total}</li>
         <li className={s.statisticsItem}>
-          Positive feedback: {positivePercentage()}%
+          😇Positive feedback: {positivePercentage()}%
         </li>
       </ul>
     </>
