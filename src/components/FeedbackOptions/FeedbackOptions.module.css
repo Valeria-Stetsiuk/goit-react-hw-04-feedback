@@ -1,0 +1,25 @@
+.section__title{
+    font-weight: 700;
+}
+.button{
+    color: azure;
+    background-color: blue;
+    font-size: 18px;
+    border-radius: 5px ;
+    cursor: pointer;
+    margin-left: 15px;
+    padding: 10px;
+    width: 80px;
+    outline: 2px solid blue;
+    
+}
+.button:hover,.button:focus  {
+    color: blue;
+    background-color: azure;
+    font-size: 18px;
+    border-radius: 5px;
+    outline: 2px solid blue;
+    
+        
+
+}
